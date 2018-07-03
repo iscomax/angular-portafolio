@@ -6,6 +6,7 @@ import { GalleryComponent} from  './gallery/gallery.component';
 
 
 const routes: Routes = [
+  { path:'', redirectTo: '/gallery', pathMatch: 'full' },
   {path: 'about', component: AboutComponent},
   {path: 'contact', component: ContactComponent},
   {path: 'gallery', component: GalleryComponent},
